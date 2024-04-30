@@ -1,0 +1,17 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(0, 0, 68);
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
