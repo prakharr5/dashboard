@@ -46,19 +46,61 @@ main {
 .consul {
   width: 98%;
   background-color: white;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
 }
 .filt {
   width: 98%;
   background-color: white;
   display: flex;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
 }
 .count {
   width: 98%;
-  background-color: white;
   display: flex;
   justify-content: space-around;
+  padding: 0.7rem;
 }
 .tabl {
   width: 98%;
   background-color: white;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+}
+.boxTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  border-left: 0.2rem solid green;
+  gap: 1rem;
+}
+.boxTwo i {
+  background-color: green;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
 }
